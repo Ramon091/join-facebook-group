@@ -1,0 +1,83 @@
+.owl-carousel {
+    border: none;
+}
+.owl-dots .owl-dot.active {
+    background: #1254ff;
+}
+.card {
+    border: 1px solid lightgray;
+    height: 471px;
+    padding: 10px, 10px, 40px, 10px;
+    border-radius: 12px;
+    gap: 16px;
+}
+.custom-prev, .custom-next {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    color: #1254ff;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 999;
+}
+.custom-prev {
+    left: 0;
+    margin-left: 160px;
+    padding-left: 21px;
+    padding-top: 11px;
+    z-index: 999;
+}
+.custom-next {
+    right: 0;
+    margin-right: 155px;
+    padding-left: 24px;
+    padding-top: 11px;
+    z-index: 999;
+}
+.facebook-button{
+    background: linear-gradient(0deg, #1254FF, #1254FF);
+    width: 314.67px;
+    height: 48px;
+    padding: 15px, 40px, 15px, 40px;
+    border-radius: 6px;
+    border: 1px;
+    gap: 10px;
+}
+.page-name {
+    display: flex;
+    align-items: center;
+}
+.facebook-icon-circle {
+    width: 36px;
+    height: 36px;
+    background-color: #1254FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.content-text{
+    font-weight: 500;
+}
+.join-fb-text{
+    font-family: TT Hoves;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.description{
+    font-family: TT Hoves;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
